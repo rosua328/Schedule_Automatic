@@ -1,0 +1,64 @@
+input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 18px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.input-title {
+  background-color: rgb(23, 23, 23);
+  color: rgb(212, 212, 212);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 80px;
+}
+
+.input-button {
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(212, 212, 212);
+  background-color: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.input-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.input-check {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input-use {
+  margin-right: 15px;
+}
+
+.input-list {
+  flex: 1;
+}
